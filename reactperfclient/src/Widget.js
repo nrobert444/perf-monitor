@@ -25,6 +25,7 @@ class Widget extends Component {
       macA,
       isActive
     } = this.props.data
+    console.log('this is the mac address', macA)
 
     const cpuWidgetId = `cpu-widget-${macA}`
     const memWidgetId = `mem-widget-${macA}`
